@@ -1,4 +1,4 @@
-/* Home.css */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -8,11 +8,11 @@
   color: white;
   height: 6rem;
   width: 100%; 
-  margin: 0; /* Remove default margin */
-  position: fixed; /* Fixed position to keep the header at the top */
-  top: 0; /* Position at the top of the viewport */
-  left: 0; /* Align to the left edge of the viewport */
-  right: 0; /* Align to the right edge of the viewport */
+  margin: 0;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0; 
   display: flex;
 }
 .home-content{
@@ -28,7 +28,7 @@
 }
 
 .logout-icon {
-  width: 30px; /* Adjust width as needed */
+  width: 30px; 
   cursor: pointer;
   margin-right: 3rem;
 }
@@ -38,9 +38,9 @@
   background-color: #f4f4f4;
   padding: 20px;
   margin-top: -8px;
-  position: fixed; /* Fixed position to keep the sidebar in place */
-  top: 125px; /* Position below the header */
-  left: 0; /* Align to the left side of the page */
+  position: fixed; 
+  top: 125px; 
+  left: 0; 
   height: 100%;
 }
 
