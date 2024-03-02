@@ -57,6 +57,7 @@ const Home = () => {
 
   return (
     <>
+    
         <header className="header">
           <img src={digi} alt="Digital Flake" className="logo" />
           <img src={logoutIcon} alt="Logout" className="logout-icon" onClick={handleLogout} />
