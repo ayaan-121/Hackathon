@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import digi from './digi.jpeg';
-import Home from './Home'; // Import the Home component
+import Home from './Home'; 
  import backgroundimg from './backgroundimg.webp'
 const Login = () => {
     const [email, setEmail] = useState('');
